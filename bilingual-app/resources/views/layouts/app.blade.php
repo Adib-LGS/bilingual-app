@@ -26,7 +26,7 @@
             @yield('content')
         </main>
         <div class="container">
-        <p>{{ __('messages.cookie_consentment') }} <a href="#"> {{__('messages.learn_more') }} </a><button type="button">OK</button></p>
+        <cookie-banner></cookie-banner>
         </div>
     </div>
 </body>
