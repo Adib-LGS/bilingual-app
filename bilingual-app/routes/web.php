@@ -11,6 +11,7 @@
 |
 */
 
+
 Route::view('/', 'pages.home');
 
 Auth::routes();
